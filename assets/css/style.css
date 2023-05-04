@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(221, 219, 219);
+    text-align: center;
+}
+
+.card{
+    width: 330px;
+    height: 460px;
+    border-radius: 15px;
+    background: white;
+
+    display: grid;
+    margin: auto;
+    margin-top: 95px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.content{
+    padding: 15px;
+    justify-content: center;
+}
+
+.content p{
+    font-size: 13px;
+    color: rgb(122, 122, 122);
+    padding-top: 14px;
+    padding-bottom: 25px;
+}
+
+.content img{
+    width: 30px;
+    height: 30px;
+}
+
+.content button.payment{
+    background-color: rgb(6, 6, 197);
+    width: 290px;
+    height: 45px;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.content button.cancel{
+    background: transparent;
+    border: 0;
+    padding: 10px;
+}
+
+.content table button{
+    text-decoration: underline;
+    color: rgb(6, 6, 197);
+    background: transparent;
+    padding-left: 5px;
+    border: 0;
+}
